@@ -19,6 +19,20 @@
         <tag>6.16.ecm4u.1</tag>
     </scm>
 
+      <distributionManagement>
+          <snapshotRepository>
+              <id>ecm4u-snapshots</id>
+              <name>ecm4u Snapshots</name>
+              <url>http://artifacts.ecm4u.intra:8081/artifactory/ecm4u-snapshots/</url>
+          </snapshotRepository>
+          <repository>
+              <id>ecm4u-releases</id>
+              <name>ecm4u Snapshots</name>
+              <url>http://artifacts.ecm4u.intra:8081/artifactory/ecm4u-releases/</url>
+          </repository>
+      </distributionManagement>
+
+<!--
     <distributionManagement>
         <repository>
             <id>alfresco-internal</id>
@@ -29,6 +43,7 @@
             <url>https://artifacts.alfresco.com/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
+-->
 
     <properties>
         <!-- Files to exclude from SonarQube analysis -->
